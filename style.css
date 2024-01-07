@@ -1,0 +1,167 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+div{
+    max-width: 100%;
+}
+nav{
+    background-color: #004a9f;
+    color: white;
+    padding: 10px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.logo>img{
+    height: 30px;
+
+}
+.login{
+    gap: 25px;
+    display: flex; 
+}
+.crousal{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    padding-right: 1%;
+
+}
+.heading{
+    text-align: center;
+    padding-top: 1.5%;
+}
+.category_item > img{
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    
+    
+    
+}
+.category_item>img:hover{
+    box-shadow: 0 0 20px 0 #007bff;
+    transform: scale(1.05);
+    
+    
+}
+.category_item{
+    padding-top: 2%;
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*.button>h1>button{
+    background: #007bff;
+    color: #ffffff;
+    border-radius: 5%;
+    border-color: #007bff;
+    padding: 0.5%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.button>h1{
+    padding: 2% ;
+    justify-content: space-between;
+    align-items: center;
+}
+*/
+.title_bar{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+
+}
+.category_sec{
+    background-color: lightgray;
+    padding: 10px;
+    margin-top: 5%
+    
+}
+ button{
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border-color: #007bff;
+    margin-top: 22px;
+    padding: 10px;
+    
+}
+.products>img{
+    
+    height: 200px;
+    width: 200px;
+
+
+}
+.products{
+    
+    padding: 20px;
+    width: 100%;
+    margin: 15px;
+    border-radius:10px;
+    
+   
+    
+    
+    
+}
+
+.product_list{
+    padding: 20px;
+    
+    display:flex;
+    width: 15%;
+    border-radius: 7px;
+    gap: 45px;
+    justify-content: space-between;
+    
+
+    
+}
+
+.product_section{
+    padding: 20px;
+}
+.one>img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+.two>img{
+    width: 50px;
+    height: 50px;
+    
+}
+.three>img{
+    width: 50px;
+    height: 50px;
+}
+.upper_footer{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.footer{
+    background: black;
+    color: white;
+
+}
+.footer>h1{
+    text-align: center;
+}
+.footer>p{
+    padding: 20px 60px;
+}
